@@ -16,7 +16,7 @@ RUN pip install -r requirements.txt
 
 # expose port 3000
 
-EXPOSE 3306
+EXPOSE 3000
 
 # serve the app / run the app (keep it running)
 
