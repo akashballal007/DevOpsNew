@@ -14,9 +14,9 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-# expose port 80
+# expose port 3306
 
-EXPOSE 80
+EXPOSE 3306
 
 # serve the app / run the app (keep it running)
 
