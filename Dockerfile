@@ -14,7 +14,7 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-# expose port 3306
+# expose port 3000
 
 EXPOSE 3306
 
