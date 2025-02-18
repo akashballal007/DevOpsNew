@@ -22,7 +22,7 @@ ENV PYTHONUNBUFFERED=1
 ENV PYTHONPATH="/app/deps"
 
 # Expose the application port
-EXPOSE 3306
+EXPOSE 3000
 
 # Run the application
 CMD ["run.py"]
